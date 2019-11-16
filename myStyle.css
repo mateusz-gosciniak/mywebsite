@@ -1,0 +1,39 @@
+﻿/* 
+Template Name: myStyle 
+*/
+
+body {
+	background-image: url(/wp-content/uploads/2017/05/background.svg);
+	background-size: cover;
+}
+
+img {
+	position: relative;
+}
+
+#container {
+	position: relative;
+	background-image: url(/wp-content/uploads/2017/05/menu.svg);
+	background-size: auto;
+	background-repeat: no-repeat;
+	height: 530px; 
+	width: 715px;
+}
+
+.box {
+	position: absolute;
+	background-image: url(/wp-content/uploads/2017/05/button.svg);
+	background-size: auto;
+    background-repeat: no-repeat;
+	height: 135px;
+	width: 160px;
+}
+
+.box:hover {
+	position: absolute;
+	background-image: url(/wp-content/uploads/2017/05/buttonHover.svg);
+	background-size: auto;
+    background-repeat: no-repeat;
+	height: 135px;
+	width: 160px;
+}
